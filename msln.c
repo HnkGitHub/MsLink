@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf ("Usage: msln [symbolic link] [target]\n") ;
-		ExitProcess() ;
+		ExitProcess(0) ;
 	}
 	
 		
